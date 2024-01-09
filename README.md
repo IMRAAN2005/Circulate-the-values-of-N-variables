@@ -15,12 +15,13 @@ Using the slicing concept rotate the list
 ### Step 5: Using concatication operation display the entire rotated list
 ### Step 6: Stop the program
 ## Program:
+```
 def circulate():
     l=eval(input())
     n=int(input())
     l=l[n:]+l[:n]
     print("After circulating the values are:",l)
-
+```
 ## Output:![image](https://github.com/IMRAAN2005/Circulate-the-values-of-N-variables/assets/149347407/af8fa3ce-1f37-4808-8143-627042edf0a9)
 
 
